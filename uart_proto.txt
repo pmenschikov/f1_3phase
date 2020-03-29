@@ -1,0 +1,15 @@
+uart params 3000000 8N1 no flowcontrol
+pin a10 mcu rx
+pin a09 mcu tx
+
+a[01] - reset control, default 0
+	0 - activate reset
+	1 - start adc
+b[01] - se control, default 1
+c[01] - owrs control, default 1
+d[01] - gain control 
+e[01] - bin/text, default text
+	0 - bin mode
+	1 - hex
+	2 - rms text
+f[01] - data out control
